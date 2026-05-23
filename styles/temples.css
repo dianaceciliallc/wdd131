@@ -89,6 +89,7 @@ main {
     margin: 0 auto;
     text-align: center;
     padding: 3rem;
+    max-width: 1000px;
 }
 
 main h1 {
@@ -98,7 +99,7 @@ main h1 {
 .album-wrapper {
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(1, 300px);
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
 
