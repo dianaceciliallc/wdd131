@@ -1,0 +1,45 @@
+:root {
+    --medium-size: 32px;
+    --regular-size: 20px;
+}
+
+@media screen and (min-width: 840px) {
+
+    header {
+        align-items: center;
+    }
+
+    header span {
+        width: 40%;
+        font-size: var(--medium-size);
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        width: 60%;
+    }
+
+    .navigation__options {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+
+        position: static;
+        padding: 0;
+    }
+
+    .navigation__options li a {
+        font-size: var(--regular-size);
+    }
+
+    .album-wrapper {
+        grid-template-columns: repeat(3, 300px);
+        gap: 2rem;
+    }
+
+}
