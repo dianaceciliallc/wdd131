@@ -49,6 +49,10 @@ main {
     flex: 1;
 }
 
+main picture img {
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25));
+}
+
 picture img {
     width: 100%;
     height: auto;
@@ -56,6 +60,8 @@ picture img {
     object-fit: cover;
     display: block;
     border-bottom: .5rem solid var(--primary-red);
+    filter: contrast(120%) brightness(90%);
+    aspect-ratio: 2 / 3;
 }
 
 section {
@@ -70,6 +76,14 @@ section img {
     margin: 1.5rem;
 }
 
+.data-wrapper {
+    min-height: 220px;
+}
+
+.weather-data {
+    min-height: 140px;
+}
+
 .data-wrapper p,
 .weather-data p {
     text-align: left;
@@ -80,7 +94,8 @@ footer {
     flex-direction: column;
     padding: 1.5rem;
     height: 8rem;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 700;
     color: var(--text-light);
     background-color: var(--primary-red);
     margin-top: auto;

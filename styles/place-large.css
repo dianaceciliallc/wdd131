@@ -6,6 +6,7 @@
     picture img {
         height: 100%;
         border-bottom: 1.5rem solid var(--primary-green);
+        filter: contrast(120%) brightness(90%);
     }
 
     .country-box,
@@ -13,7 +14,6 @@
         position: absolute;
         display: flex;
         justify-content: end;
-        opacity: .9;
         background-color: var(--bg-light);
         padding: 2rem;
     }
@@ -62,6 +62,6 @@
 
     footer {
         height: 11rem;
-        font-size: 20px;
+        font-size: 24px;
     }
 }
