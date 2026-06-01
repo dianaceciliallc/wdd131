@@ -99,14 +99,15 @@ menuButton.addEventListener('click', () => {
 
 const troughTemples = function (temples) {
     let temple_cards = ""
-    temples.forEach(temple => {
+    temples.forEach((temple, i) => {
+        const atr = i === 2 ? 'fetchpriority="high"' : 'loading="lazy"';
         temple_cards += `
                     <div class="temple-card">
-                        <h3>${temple.templeName}</h3>
+                        <h2>${temple.templeName}</h2>
                         <p><span class="card-label">Location:</span> ${temple.location}</p>
                         <p><span class="card-label">Dedicated:</span> ${temple.dedicated}</p>
                         <p><span class="card-label">Size:</span> ${temple.area}sq ft</p>
-                        <img src="${temple.imageUrl}" alt="${temple.templeName}" width="400" height="250" loading="lazy">
+                        <img src="${temple.imageUrl}" alt="${temple.templeName}" width="400" height="200" ${atr}>
                     </div>`
     });
 
