@@ -4,8 +4,8 @@ const temples = [
         location: "Aba, Nigeria",
         dedicated: "2005, August, 7",
         area: 11500,
-        imageUrl: 
-            "https://dianaceciliallc.github.io/wdd131/images/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+        imageUrl:
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/aba-nigeria-temple-lds-273999-wallpaper_1_11zon.webp?raw=true"
     },
     {
         templeName: "Manti Utah",
@@ -13,7 +13,7 @@ const temples = [
         dedicated: "1888, May, 21",
         area: 74792,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/manti-temple-768192-wallpaper.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/manti-temple-768192-wallpaper_2_11zon.webp?raw=true"
     },
     {
         templeName: "Payson Utah",
@@ -21,7 +21,7 @@ const temples = [
         dedicated: "2015, June, 7",
         area: 96630,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/payson-utah-temple-exterior-1416671-wallpaper_3_11zon.webp?raw=true"
     },
     {
         templeName: "Yigo Guam",
@@ -29,7 +29,7 @@ const temples = [
         dedicated: "2020, May, 2",
         area: 6861,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/yigo_guam_temple_2.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/yigo_guam_temple_2_4_11zon.webp?raw=true"
     },
     {
         templeName: "Washington D.C.",
@@ -37,7 +37,7 @@ const temples = [
         dedicated: "1974, November, 19",
         area: 156558,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/washington_dc_temple-exterior-2.jpeg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/washington_dc_temple-exterior-2_5_11zon.webp?raw=true"
     },
     {
         templeName: "Lima Perú",
@@ -45,7 +45,7 @@ const temples = [
         dedicated: "1986, January, 10",
         area: 9600,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/lima-peru-temple-evening-1075606-wallpaper.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/lima-peru-temple-evening-1075606-wallpaper_6_11zon.webp?raw=true"
     },
     {
         templeName: "Mexico City Mexico",
@@ -53,7 +53,7 @@ const temples = [
         dedicated: "1983, December, 2",
         area: 116642,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/mexico-city-temple-exterior-1518361-wallpaper_7_11zon.webp?raw=true"
     },
     {
         templeName: "Madrid Spain",
@@ -61,7 +61,7 @@ const temples = [
         dedicated: "1999, March, 19",
         area: 45800,
         imageUrl:
-            "https://dianaceciliallc.github.io/wdd131/images/madrid-spain-temple-68481-thumb.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/madrid-spain-temple-68481-thumb_8_11zon.webp?raw=true"
     },
     {
         templeName: "Bahía Blanca Argentina",
@@ -69,7 +69,7 @@ const temples = [
         dedicated: "2025, November, 23",
         area: 23400,
         imageUrl:
-            "https://github.com/dianaceciliallc/wdd131/blob/main/images/bahia-blanca-argentina-temple-65293-thumb.jpg?raw=true"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/bahia-blanca-argentina-temple-65293-thumb_9_11zon.webp?raw=true"
     },
     {
         templeName: "Bangkok Thailand",
@@ -77,7 +77,7 @@ const temples = [
         dedicated: "2023, October, 22",
         area: 48525,
         imageUrl:
-            "https://github.com/dianaceciliallc/wdd131/blob/main/images/bangkok-thailand-temple-40055-thumb.jpg?raw=true"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/bangkok-thailand-temple-40055-thumb_10_11zon.jpg"
     },
     // Add more temple objects here...
 ];
