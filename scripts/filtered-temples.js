@@ -77,7 +77,7 @@ const temples = [
         dedicated: "2023, October, 22",
         area: 48525,
         imageUrl:
-            "https://github.com/dianaceciliallc/wdd131/blob/main/images/bangkok-thailand-temple-40055-thumb_10_11zon.jpg"
+            "https://github.com/dianaceciliallc/wdd131/blob/main/images/bangkok-thailand-temple-40055-thumb_1_11zon.webp?raw=true"
     },
     // Add more temple objects here...
 ];
@@ -100,7 +100,7 @@ menuButton.addEventListener('click', () => {
 const troughTemples = function (temples) {
     let temple_cards = ""
     temples.forEach((temple, i) => {
-        const atr = i === 2 ? 'fetchpriority="high"' : 'loading="lazy"';
+        const atr = (i === 0 || i === 2) ? 'fetchpriority="high"' : 'loading="lazy"';
         temple_cards += `
                     <div class="temple-card">
                         <h2>${temple.templeName}</h2>
