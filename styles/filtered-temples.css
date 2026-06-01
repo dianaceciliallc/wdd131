@@ -118,7 +118,12 @@ main h1 {
 }
 
 .temple-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 400 / 250; 
+    object-fit: cover;
     margin-top: .5rem;
+    display: block; 
 }
 
 figure img {

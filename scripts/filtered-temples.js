@@ -61,7 +61,7 @@ const temples = [
         dedicated: "1999, March, 19",
         area: 45800,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/_temp/056-Madrid-Spain-Temple.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/madrid-spain-temple/madrid-spain-temple-68481-thumb.jpg"
     },
     {
         templeName: "Bahía Blanca Argentina",
@@ -114,7 +114,6 @@ const troughTemples = function (temples) {
 }
 
 function filteredTemples(temples) {
-    troughTemples(temples);
     let temples_filtered = [];
     filterOpt.forEach((opt) => {
         opt.addEventListener(('click'), (e) => {
@@ -152,4 +151,5 @@ function filteredTemples(temples) {
     }) 
 }
 
+troughTemples(temples);
 filteredTemples(temples);
