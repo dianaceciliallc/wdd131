@@ -1,0 +1,148 @@
+:root {
+    --text-light: #fff;
+    --accent-color: #ffd700;
+    --bg-dark: #002855;
+    --text-figure-caption: #0466c8;
+
+    --font: "Open Sans", sans-serif;
+    --font-weight: 600;
+
+    --medium-size: 32px;
+    --regular-size: 20px;
+    --small-size: 18px;
+    --caption-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.5rem;
+}
+
+header, footer {
+    display: flex;
+    background-color: var(--bg-dark);
+    padding: 2rem;
+}
+
+header {
+    height: 6rem;
+    align-items: flex-end;
+}
+
+header span, #menu {
+    width: 50%;
+    font-weight: var(--font-weight);
+    font-size: var(--regular-size);
+    color: var(--text-light);
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    font-size: var(--medium-size);
+    text-decoration: none;
+}
+
+.navigation {
+    display: block;
+}
+
+.navigation__options {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: var(--bg-dark);
+    width: 100%;
+    padding: 1rem;
+    list-style: none;
+}
+
+.navigation__options li a {
+    font-size: var(--small-size);
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+.navigation__options li a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+main {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+main h1 {
+    margin-bottom: 2rem;
+}
+
+.album-wrapper {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.temple-card {
+    padding: 1.5rem;
+    background-color: #eee;
+}
+
+.temple-card h3 {
+    margin-bottom: .5rem;
+}
+
+.card-label {
+    color: var(--text-figure-caption);
+    font-weight: bold;
+}
+
+.temple-card img {
+    margin-top: .5rem;
+}
+
+figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+figure figcaption {
+    margin-top: .2rem;
+    color: var(--text-figure-caption);
+    font-size: var(--caption-size);
+}
+
+footer {
+    height: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-light);
+    font-size: var(--regular-size);
+}
+
+#lastModified {
+    color: var(--accent-color);
+    font-size: var(--caption-size);
+}
