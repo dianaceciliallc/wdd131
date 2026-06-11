@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    form {
+        padding: 1rem;
+        border-radius: 0;
+    }
+    
+    header, footer {
+        padding: 1rem;
+    }
+    
+    .opt-group__wrapper {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
