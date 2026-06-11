@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 20px;
+}

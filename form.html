@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Product Review Form</title>
+    <meta name="author" content="Diana Llerena">
+    <meta name="description" content="Product Review Form for WDD 131. A form to submit user reviews, ratings, and feedback on installed products.">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <section>
+            <form class="review__form" action="review.html" method="get">
+                <label class="form-label" for="product-name">Product</label>
+                <select id="product-name" name="product" required>
+                    <option disabled selected>Choose a Product ...</option>
+                </select>
+                <fieldset>
+                    <legend class="form-label">Overall Rating</legend>
+                    <div class="opt-group__wrapper">
+                        <label class="aligned" for="rating-1">
+                            <input type="radio" id="rating-1" name="rating" value="1" required>
+                            ☆
+                        </label>
+                        <label class="aligned" for="rating-2">
+                            <input type="radio" id="rating-2" name="rating" value="2" required>
+                            ☆ ☆
+                        </label>
+                        <label class="aligned" for="rating-3">
+                            <input type="radio" id="rating-3" name="rating" value="3" required>
+                            ☆ ☆ ☆
+                        </label>
+                        <label class="aligned" for="rating-4">
+                            <input type="radio" id="rating-4" name="rating" value="4" required>
+                            ☆ ☆ ☆ ☆
+                        </label>
+                        <label class="aligned" for="rating-5">
+                            <input type="radio" id="rating-5" name="rating" value="5" required>
+                            ☆ ☆ ☆ ☆ ☆
+                        </label>
+                    </div>
+                </fieldset>
+                <label class="form-label" for="installation-date">Date of Installation</label>
+                <input type="date" id="installation-date" name="installation_date" required>
+                <fieldset>
+                    <legend class="form-label">
+                        Which features did you find useful in the product?<br>
+                        <em>(Check all that apply)</em>
+                    </legend>
+                    <div class="opt-group__wrapper">
+                        <label class="aligned" for="f-durability">
+                        <input type="checkbox" id="f-durability" name="features" value="durability">
+                        Durability
+                    </label>
+                    <label class="aligned" for="f-ease">
+                        <input type="checkbox" id="f-ease" name="features" value="ease">
+                        Ease of Use
+                    </label>
+                    <label class="aligned" for="f-performance">
+                        <input type="checkbox" id="f-performance" name="features" value="performance">
+                        Performance
+                    </label>
+                    <label class="aligned" for="f-design">
+                        <input type="checkbox" id="f-design" name="features" value="design">
+                        Design
+                    </label>
+                    </div>
+                </fieldset>
+                <label class="form-label" for="message">Written Review <span>(Optional)</span></label>
+                <textarea id="message" name="message" placeholder="Type here"></textarea>
+                <label class="form-label" for="name">Your Name <span>(Optional)</span></label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                <button type="submit">Post Review</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🧝🏻‍♀️ Diana Llerena 🧝🏻‍♀️ Lima, Perú</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
