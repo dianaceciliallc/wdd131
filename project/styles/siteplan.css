@@ -1,4 +1,4 @@
-/* Importar fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
@@ -6,19 +6,21 @@
     --brand-yellow: #ffde59;
     --text-dark: #3f2a36;
     --bg-cream: #fffaf0;
-    --main-font: 'Poppins', sans-serif;
+    --headings-font: 'Unbounded', sans-serif;
+    --body-font: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--bg-cream);
     color: var(--text-dark);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     line-height: 1.6;
     padding: 20px;
 }
 
 h1, h2 {
     color: var(--brand-pink);
+    font-family: var(--headings-font);
 }
 
 section {
